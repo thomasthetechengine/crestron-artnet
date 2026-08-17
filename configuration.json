@@ -1,0 +1,31 @@
+{
+    "CrestronConfig": {
+        "Host": "192.168.6.10"
+    },
+    "CrestronDebug": true,
+    "ArtnetInputDebug": false,
+    "ArtnetOutputDebug": true,
+    "ArtnetConfig": {
+        "ListenToInterfaces": [
+            "192.168.0.9"
+        ],
+        "ArtnetInput": {
+            "Enabled": true,
+            "Net": 0,
+            "Subnet": 0,
+            "Universe": 0,
+            "LastAddress": 300
+        },
+        "ArtnetOutputNodes": {
+            "Node 1": {
+                "Enabled": true,
+                "IP": "192.168.0.9",
+                "Net": 0,
+                "Subnet": 0,
+                "Universe": 1,
+                "Port": 6454,
+                "BaseRefreshInterval": 1000
+            }
+        }
+    }
+}
