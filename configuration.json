@@ -1,6 +1,7 @@
 {
     "CrestronConfig": {
-        "Host": "192.168.6.10"
+        "Host": "192.168.6.10",
+        "IPID": "04"
     },
     "CrestronDebug": true,
     "ArtnetInputDebug": false,

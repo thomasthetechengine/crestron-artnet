@@ -1,4 +1,3 @@
-const CrestronIpId = "\x04"
 
 
 process.on("beforeExit", (code) => {
@@ -46,6 +45,7 @@ process.on("uncaughtException", (err) => {
 const cipclient = require('./crestroncip.js');
 const config = require("./configuration.json");
 const OutputNodes = config.ArtnetConfig.ArtnetOutputNodes
+const CrestronIpId = String.fromCharCode(parseInt(config.CrestronConfig.IPID, 16));
 
 var dmxlib = require('dmxnet');
 var dmxnet = new dmxlib.dmxnet({
