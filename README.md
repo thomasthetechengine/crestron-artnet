@@ -20,3 +20,5 @@ Configuration is quite self explanatory, only one input is supported at the mome
 # Known Bugs
 
 This program has not been tested since updating `crestroncip.js` to support 16 bit values, so there is a good chance only addresses 1-255 will function.
+
+This does not support multiple universes
